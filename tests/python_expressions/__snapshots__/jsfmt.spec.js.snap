@@ -361,7 +361,7 @@ x = 1 - a
 
 x = a * b
 
-x = a ** 2
+x = a**2
 
 x = a / b
 
@@ -405,13 +405,13 @@ a.b[0][0].pop()[0].push("bar")("baz").spam
 
 a.b[0].read()[1][2].foo().spam()[0].bar
 
-a ** 2
+a**2
 
-a ** 2 ** 2
+a**2**2
 
-a.b[0] ** 2
+a.b[0]**2
 
-a.b[0].read()[1][2].foo().spam()[0].bar ** 2
+a.b[0].read()[1][2].foo().spam()[0].bar**2
 
 l[start:end] = l2
 
@@ -1065,7 +1065,7 @@ x = 1 - a
 
 x = a * b
 
-x = a ** 2
+x = a**2
 
 x = a / b
 
@@ -1109,13 +1109,13 @@ a.b[0][0].pop()[0].push("bar")("baz").spam
 
 a.b[0].read()[1][2].foo().spam()[0].bar
 
-a ** 2
+a**2
 
-a ** 2 ** 2
+a**2**2
 
-a.b[0] ** 2
+a.b[0]**2
 
-a.b[0].read()[1][2].foo().spam()[0].bar ** 2
+a.b[0].read()[1][2].foo().spam()[0].bar**2
 
 l[start:end] = l2
 

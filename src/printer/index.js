@@ -521,12 +521,14 @@ function genericPrint(path, options, print) {
     }
 
     case "BinOp": {
+      // If is pow operation, we don't separate the left and right operands
+      const lineSep = n.op.ast_type === "Pow" ? "" : line;
       return group(
         concat([
           path.call(print, "left"),
-          line,
+          lineSep,
           path.call(print, "op"),
-          line,
+          lineSep,
           path.call(print, "right")
         ])
       );
